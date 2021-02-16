@@ -1,5 +1,7 @@
 import React from "react";
 
+// Hacer este componente dinamico
+
 const Table = () => {
     return (
         <div>
