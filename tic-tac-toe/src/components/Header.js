@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
             <div className="row" style={{ background: "#1a181b" }} >
                 <div className="col text-center">
                     <h1 style={{ color: "white" }}>Tic Tac Toe</h1>
