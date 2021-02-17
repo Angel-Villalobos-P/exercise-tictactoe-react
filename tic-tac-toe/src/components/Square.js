@@ -7,20 +7,10 @@ const Square = (props) => {
     }
 
     return (
-        <div className="row">
-            {
-                [1, 2, 3].map((elemt, i) => {
-                    return (
-                        <div key={i} className="col-4 border" onClick={()=>handelClick(props)} style={{ height: "190px", background:"white" }}>
-                            <p>{elemt}</p>
-                        </div>
-                    )
-                })
-            }
+        <div className="col-4 border " onClick={() => handelClick(props)} style={{ height: "157.5px", background: "white" }}>
+            <p className="text-center" style={{ fontSize: "80px", color: "#87f1ff" }}>{props.value}</p>
         </div>
     );
 }
 
 export default Square;
-
-//style={{ height: "189px" }}
