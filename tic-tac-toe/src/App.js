@@ -1,6 +1,5 @@
 
 import Header from './components/Header';
-import Table from './components/Table';
 import './App.css';
 import Square from './components/Square';
 import { useState, useEffect } from 'react';
@@ -59,10 +58,7 @@ const App = () => {
     });
 
     const updateBoard = (loc) => {
-        //console.log('Winner: ', winner, 'turn: ', turn, 'Gameboard: ', gameBoard);
         if (winner !== null) {
-            //make game over component visible
-            //console.log("Winner", winner);
             return;
         }
 
